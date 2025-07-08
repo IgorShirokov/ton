@@ -6,6 +6,8 @@ import (
 	"github.com/sirupsen/logrus"
 )
 
+// https://ton-blockchain.github.io/global.config.json
+
 func main() {
 	if err := run(); err != nil {
 		panic(err)
